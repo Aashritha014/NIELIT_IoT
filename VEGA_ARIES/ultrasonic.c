@@ -1,7 +1,4 @@
 
-
-
-
 #define echoPin 1 // attach pin GPIO-1 Aries to pin Echo of HC-SR04
 #define trigin 0  //attach pin GPIO-0 Aries to pin Trig of HC-SR04
 
