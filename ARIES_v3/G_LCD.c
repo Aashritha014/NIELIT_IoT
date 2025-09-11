@@ -1,3 +1,12 @@
+/* Connection Setups 
+
+- VCC of LCD to +5V of AV3
+- GND of LCD to GND of AV3 
+- SDA of LCD to SDA of AV3 (GPIO21)
+- SCL of LCD to SCL of AV3 (GPIO22)
+
+*/
+
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 TwoWire Wire(1);
@@ -23,3 +32,4 @@ lcd.setCursor(0, 1);  //move cursor to (0,1)
 lcd.print("Aurangabad ");   //print msg at (0,1)
  delay(2000);
 }
+
