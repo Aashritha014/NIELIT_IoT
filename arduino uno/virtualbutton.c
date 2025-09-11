@@ -20,3 +20,16 @@ void loop(){
 } 
 	 
 }
+
+/* Using String Instead of char 
+
+
+
+
+
+
+
+
+
+
+*/
