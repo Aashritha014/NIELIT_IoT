@@ -1,3 +1,14 @@
+/* PIN CONNECTIONS 
+
+VCC of the sensor to  +5V of the board 
+
+TRIG of the sensor to  GPIO-0 of the board
+
+ECHO of the sensor to  GPIO-1 of the board
+
+GND of the sensor to GND of the board
+
+*/
 
 #define echoPin 1 // attach pin GPIO-1 Aries to pin Echo of HC-SR04
 #define trigin 0  //attach pin GPIO-0 Aries to pin Trig of HC-SR04
@@ -40,3 +51,5 @@ void loop () {
   
   delay (1000); // Wait for a second before next measurement
 }
+
+
